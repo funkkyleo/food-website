@@ -1,8 +1,7 @@
-body{
-  background-color: rgb(216, 210, 210);
-}
 header{
-  text-align: center;
-  background-color: aliceblue;
+  text-align: left;
+  background-color: rgb(243, 215, 162);
+  margin: 10px;
+  padding: 20px;
 }
 nav{text-align: right;}
