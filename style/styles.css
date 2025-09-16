@@ -1,7 +1,21 @@
 header{
   text-align: left;
   background-color: rgb(243, 215, 162);
+  padding: 20px;
+}
+nav{
+  text-align: right;
+}
+
+h1{
+  font-family: 'Courier New', Courier, monospace;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
   margin: 10px;
   padding: 20px;
 }
-nav{text-align: right;}
+.tagline{ 
+  font-style: italic;
+
+}
