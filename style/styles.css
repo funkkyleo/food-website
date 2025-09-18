@@ -19,6 +19,32 @@ body{
   font-style: italic;
 }
 img{
-  width: 300px;
-  height: 200px;
+  width: 400px;
+  height: 300px;
+}
+body{
+  background-color: antiquewhite;
+}
+#menu{
+  text-align: left;
+  
+}
+.lead{
+  text-align: center;
+}
+.price{
+  font-weight: 800;
+  color: rgb(32, 32, 63);
+}
+.muted{
+  color: rgb(32, 32, 63);
+}
+h2{
+  color: rgb(32, 32, 63);
+}
+h3{
+  color: rgb(32, 32, 63);
+}
+.lead{
+  color: rgb(32, 32, 63);
 }
