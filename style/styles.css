@@ -2,6 +2,7 @@ header{
   text-align: left;
   background-color: rgb(243, 215, 162);
   padding: 20px;
+  border-radius: 18px;
 }
 nav{
   text-align: right;
@@ -17,6 +18,11 @@ body{
 }
 .hero{ 
   font-style: italic;
+  display: grid;
+  grid-template-columns: 1fr 420px;
+  gap: 28px;
+  align-items: center;
+  padding: 44px;;
 }
 img{
   width: 400px;
@@ -39,12 +45,24 @@ body{
 .muted{
   color: rgb(32, 32, 63);
 }
-h2{
+.hero-left h2{
   color: rgb(32, 32, 63);
+  font-size: 42px;
+}
+.hero-left p{
+  margin: 0 0 20px;
 }
 h3{
   color: rgb(32, 32, 63);
 }
 .lead{
   color: rgb(32, 32, 63);
+}
+.badge{
+  background: #8d695d;
+  padding: 6px 8px;
+  border-radius: 8px;  
+}
+.btn{
+  padding: 12px 18px;
 }
