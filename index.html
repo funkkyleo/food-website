@@ -22,8 +22,7 @@
       <div class="hero-left">
     <div class="badge">Fresh . Bulk . weekly</div>
     <h2>Healthy meals, made simple - order weekly packs</h2>
-    <p class="muted">Plan your week. Choose family packs or meal-prep boxes 
-           <img src="images/food combo.jpg" alt="a picture of my food combo">
+    <p class="muted">Plan your week. Choose family packs or meal-prep boxes and delivered ready to heat.
         </div>
       </div>
     </section>
@@ -33,7 +32,7 @@
       <h2>Popular Menu</h2>
       <p class="lead">Handpicked favourites - order individual meals or bulk boxes.</p>
       <div class="menu-grid">
-        <article class="card"></article>
+        <article class="card">
           <img src="images/Jollof rice.jpg" alt="a picture of jollof rice">
           <h3>Jollof Rice Pack</h3>
           <p class="muted">Spiced tomato rice, tender chicken-available in family and party pack.</p>
@@ -42,6 +41,7 @@
             <button class="btn" onclick="openOrder('Jollof Rice',3500)">Order</button>  
       </div>
       </article>
+
 
       <article class="card">
       <img src="images/fried rice.jpg" alt="a picture of fried rice">
@@ -68,7 +68,7 @@
     <h3>Spicy Catfish Peppersoup</h3>
     <p class="muted">Aromatic broth-perfect for small and large gatherings.</p>
     <div class="card-foot">
-      <div class="price">6000</div>
+      <div class="price">#6000</div>
       <button class="btn" onclick="openOrder('Spicy Catfish Peppersoup', 6000)">Order</button> 
     </div>
     </article>
@@ -77,11 +77,37 @@
     <section id="plans" class="section">
       <h2>Weekly Plans</h2>
       <p class="lead"> Flexible plans for individual, couples. Swap meals and set delivery days</p>
-
+      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 16px;">
       <div class="card">
         <h3>Solo Plan</h3>
-        <p class="muted"></p>
+        <p class="muted">3 meals/day, 5days - delivered ready-to-heat.</p>
+        <div class="card-foot"></div>
+        <div class="price">#18,000/week</div>
+      <button class="btn" onclick="openOrder('Solo Weekly Plan', 18000)">Choose</button> 
       </div>
+
+       <div class="card">
+        <h3>Couple Plan</h3>
+        <p class="muted">Meals crafted for two people-balanced portions.</p>
+        <div class="card-foot"></div>
+        <div class="price">#33,000/week</div>
+      <button class="btn" onclick="openOrder('Couple Weekly Plan', 33000)">Choose</button> 
+      </div>
+      
+      <div class="card">
+        <h3>Family Plan</h3>
+        <p class="muted">Family-sized boxes with 7days of meals.</p>
+        <div class="card-foot"></div>
+        <div class="price">#85,000/week</div>
+      <button class="btn" onclick="openOrder('Family Weekly Plan', 85000)">Choose</button> 
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About Us</h2>
+      <p class="lead">We are one of the food vendor who cook tasty meals, we are sustainable and convenient.</p>
+
+      <section></section>
 
     </section>
   </main>
