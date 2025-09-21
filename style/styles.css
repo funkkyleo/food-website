@@ -1,6 +1,6 @@
 header{
   text-align: left;
-  background-color: rgb(243, 215, 162);
+  background-color: #ddb9b9;
   padding: 20px;
   border-radius: 18px;
 }
@@ -10,6 +10,7 @@ nav{
 
 h1{
   font-family: 'Courier New', Courier, monospace;
+  font-size: 80px;
 }
 body{
   font-family: Arial, Helvetica, sans-serif;
